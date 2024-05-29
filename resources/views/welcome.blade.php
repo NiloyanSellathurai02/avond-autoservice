@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="{{ asset('/images/site_logo/logo_blue.svg') }}">
 
     <!-- CSS import -->
-    @include('partials.style_css');
+    @include('partials.style_css')
 
   </head>
 

@@ -7,10 +7,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/services', function () {
+Route::get('/diensten', function () {
     return view('services');
 });
 
+Route::get('/over-ons', function () {
+    return view('about');
+});
+
+Route::get('/de-werkruimte', function () {
+    return view('portfolio');
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

@@ -19,13 +19,14 @@
                     <a class="nav-link" href="/" id="home_submenu" role="button" aria-expanded="false">Home</a>
                   </li>
                   <li>
-                    <a href="/services">Diensten</a>
+                    <a href="/over-ons">Over ons</a>
                   </li>
                   <li>
-                    <a href="about.html">Over ons</a>
+                    <a href="/diensten">Diensten</a>
                   </li>
+
                   <li>
-                    <a href="portfolio.html">De werkruimte</a>
+                    <a href="/de-werkruimte">De werkruimte</a>
                   </li>
                   <li>
                     <a href="faq.html">F.A.Q</a>

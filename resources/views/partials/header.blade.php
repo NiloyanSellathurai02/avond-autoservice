@@ -30,8 +30,8 @@
                         <li class="{{ Request::is('faq') ? 'active' : '' }}">
                             <a href="/faq">F.A.Q</a>
                         </li>
-                        <li class="{{ Request::is('contact.html') ? 'active' : '' }}">
-                            <a href="/contact.html">Contact</a>
+                        <li class="{{ Request::is('/contact-ons') ? 'active' : '' }}">
+                            <a href="/contact-ons">Contact</a>
                         </li>
                     </ul>
                 </div>

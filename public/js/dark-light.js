@@ -15,3 +15,15 @@
       t.checked ? (root.setAttribute("data-bs-theme", "light"), window.localStorage.setItem("mode", "light")) : (root.removeAttribute("data-bs-theme", "light"), window.localStorage.setItem("mode", "dark"));
     }))
 })(jQuery);
+
+document.getElementById('theme-mode-btn').addEventListener('change', function() {
+    const icon = document.querySelector('.mode-switch i');
+    if (this.checked) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+    } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+    }
+});
+

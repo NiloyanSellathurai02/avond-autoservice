@@ -31,7 +31,7 @@
                             <a href="/faq">F.A.Q</a>
                         </li>
                         <li class="{{ Request::is('/contact-ons') ? 'active' : '' }}">
-                            <a href="/contact-ons">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>

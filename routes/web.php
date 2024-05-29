@@ -18,6 +18,11 @@ Route::get('/over-ons', function () {
 Route::get('/de-werkruimte', function () {
     return view('portfolio');
 });
+
+Route::get('/faq', function () {
+    return view('faq');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

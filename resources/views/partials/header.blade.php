@@ -29,7 +29,7 @@
                     <a href="/de-werkruimte">De werkruimte</a>
                   </li>
                   <li>
-                    <a href="faq.html">F.A.Q</a>
+                    <a href="/faq">F.A.Q</a>
                   </li>
                   <li>
                     <a href="contact.html">Contact</a>

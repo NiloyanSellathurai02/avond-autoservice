@@ -176,9 +176,7 @@
 
       <!-- Brand Logo Section - Start -->
       <div class="brand_logo_section text-center">
-        <div class="brand_logo
-
-_carousel brand_logo_blur_effect row align-items-center" data-slick='{"dots":false, "arrows": false}'>
+        <div class="brand_logo_carousel brand_logo_blur_effect row align-items-center" data-slick='{"dots":false, "arrows": false}'>
           <div class="col-">
             <a class="brand_logo_item" href="#!">
               <img src="{{ asset('/images/brands/brand_logo_img_1.png') }}" alt="ProMotors - TOYOTA Logo">
